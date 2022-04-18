@@ -1,0 +1,66 @@
+.task21_circleWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.task21_baloon:hover {
+    cursor: pointer;
+}
+
+.task21_pencils {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.task21_pencil {
+    height: 150px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.task21_pencil:hover {
+    transform: translateY(-5px);
+    transition: all 0.2s;
+}
+
+.task21_pencilSelect {
+    transform: scale(1.2);
+}
+
+.task21_pencilImg {
+    height: 100%;
+}
+
+.task21_checkTask {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task21_chek_answer {
+    font-size: 26px;
+}
+
+#task21_svg {
+    height: 400px;
+    position: static !important;
+}
+
+.task1Btn {
+    cursor: pointer !important;
+    transition: all 0.2s ease;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
+    border: none !important;
+    border-radius: 12px !important;
+    background-color: #0AB7D3 !important;
+    padding: 10px !important;
+    font-size: 26px !important;
+    color: white !important;
+    min-width: 100px !important;
+    margin: 0 !important;
+}
+
+.task1Btn:hover {
+    box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
+}

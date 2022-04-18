@@ -1,0 +1,98 @@
+.task20_wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.task20_imgWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.task20_container {
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.task20_container>img {
+    max-width: 100%;
+}
+
+.task20_imgWrapper_img {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 10px #cbcdd3;
+    border-radius: 10px;
+}
+
+.task20_answers {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    border-radius: 10px;
+}
+
+.task20_answer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: grab;
+    box-sizing: border-box;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    cursor: grab;
+    background-color: antiquewhite;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #cbcdd3;
+    background-position: center;
+    background-size: cover;
+}
+
+.task20_answer span {
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.task20_checkTask {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.task20_chek_answer {
+    font-size: 26px;
+}
+
+.task1Btn {
+    cursor: pointer !important;
+    transition: all 0.2s ease;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
+    border: none !important;
+    border-radius: 12px !important;
+    background-color: #0AB7D3 !important;
+    padding: 10px !important;
+    font-size: 26px !important;
+    color: white !important;
+    min-width: 100px !important;
+    margin: 0 !important;
+}
+
+.task1Btn:hover {
+    box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
+}
