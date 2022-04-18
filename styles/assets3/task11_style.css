@@ -1,0 +1,96 @@
+.task11_wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 550px;
+}
+
+.task11_begin {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.task11_begin button {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+.task11_sliderWrapper {
+    width: 100%;
+}
+
+.task11_counting {
+    font-size: 22px;
+    text-align: center;
+}
+
+.task11_slider {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center
+}
+
+.task11_slide {
+    height: 360px;
+    display: flex;
+    align-items: center;
+}
+
+.task11_img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.task11_img img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.task11_btn {
+    background: none !important;
+    border: none !important;
+    cursor: pointer !important;
+}
+
+.task11_btn:hover {
+    transform: scale(1.1);
+}
+
+.task11_slide_caption {
+    font-size: 22px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.task11_audio {
+    display: none !important;
+}
+
+.task1Btn {
+    cursor: pointer !important;
+    transition: all 0.2s ease;
+    box-shadow: -5px -5px 15px #ffffff, 5px 5px 15px #e9ecf4 !important;
+    border: none !important;
+    border-radius: 12px !important;
+    background-color: #0AB7D3 !important;
+    padding: 10px !important;
+    font-size: 26px !important;
+    color: white !important;
+    min-width: 100px !important;
+    margin: 0 !important;
+}
+
+.task1Btn:hover {
+    box-shadow: -5px -5px 15px #b8b7b7, 5px 5px 15px #99999b !important;
+}
